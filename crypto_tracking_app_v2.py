@@ -11,10 +11,10 @@ class MainWindow:
         mw.title("Transactions App (crypto_tracking_app_v2.py)")
         mw.configure(bg="gray12")
 
-        self.txn_date_label = tk.Label(mw, text='Date of Transaction:', font=('bold', 15))
+        self.txn_date_label = tk.Label(mw, text='Date of Transaction (YYYY-MM-DD):', font=('bold', 15))
         self.txn_date_label.place(x=25, y=30)
         self.txn_date_input = tk.Entry()
-        self.txn_date_input.place(x=185, y=30)
+        self.txn_date_input.place(x=300, y=30)
 
         self.symbol_label = tk.Label(mw, text='Crypto Ticker:', font=('bold', 15))
         self.symbol_label.place(x=25, y=80)
